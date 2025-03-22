@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #3D7337;
+    --cor2: #A5C572;
+    --cor3: #F8839E;
+    --cor4: #F9D3E2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    background-color: beige;
+}
+
+header {
+    background-color: var(--cor1);
+    width: 100vw;
+    height: 70px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+img {
+    width: 217px;
+    height: 64px;
+}
+
+.icon {
+    margin-bottom: 10px;
+}
+
+ul {
+    display: none;
+    list-style-type: none;
+}
