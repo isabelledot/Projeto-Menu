@@ -51,19 +51,14 @@ header {
 
 menu {
     display: none;
-}
-
-menu > ul {
-    list-style-type: none;
     background-color: var(--cor2);
     width: 36%;
     height: 167px;
 }
 
-menu > ul > li > a {
+menu > a {
     display: block;
     margin-top: 8px;
-    margin-left: 5px;
     padding: 12px;
     text-decoration: none;
     color: white;
@@ -71,11 +66,9 @@ menu > ul > li > a {
     font-weight: bolder;
 }
 
-menu > ul > li:hover {
+menu > a:hover {
     background-color: var(--cor1);
-}
-
-menu > ul > li > a:hover {
     color: var(--cor3);
     font-weight: bolder;
 }
+

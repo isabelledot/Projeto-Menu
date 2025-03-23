@@ -7,59 +7,34 @@
     <link rel="stylesheet" href="estilo/style.css">
     <link rel="stylesheet" href="estilo/media-query.css">
 </head>
-<!-- <body>
-<header>
-
-    <img class="branding" src="img/Black_and_White_Modern_Personal_Brand_Logo__1_-removebg-preview.png" alt="">
-
-    <img class="nav" src="img/menu.svg" alt="" onclick="clickMenu()">
-
-    <menu id="item">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contato</a></li>
-        </ul>
-    </menu>
-</header>
-<script>
-    function clickMenu() {
-        if (item.style.display == 'block') {
-            item.style.display = 'none'
-        }
-        else {item.style.display = 'block'}
-    } 
-    
-</script> -->
-
 <body onresize="mudouTamanho()">
     <header>
 
-        <div class="logo">
-            <img class="branding" src="img/Black_and_White_Modern_Personal_Brand_Logo__1_-removebg-preview.png" alt="">
+        <nav>
+            <div class="logo">
+                <img class="branding" src="img/Black_and_White_Modern_Personal_Brand_Logo__1_-removebg-preview.png" alt="">
             
-            <img id="icon" src="img/menu.svg" alt="" onclick="clickMenu()">
-        </div>
+                <img id="icon" src="img/menu.svg" alt="" onclick="clickMenu()">
+            </div>
+            <menu id="item">
 
-        <menu id="item">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
+                <a href="#">Home</a>
+                <a href="#">Sobre</a>
+                <a href="#">Contato</a>
         </menu>
+    </nav>
     </header>
 
     </main>
     <script>
-        function mudouTamanho() {
-            if (window.innerWidth >= 768) {
-                item.style.display = 'block'
-            }
-            else {
-                item.style.display = 'none'
-            }
-        }
+        // function mudouTamanho() {
+        //     if (window.innerWidth >= 768) {
+        //         item.style.display = 'block'
+        //     }
+        //     else {
+        //         item.style.display = 'none'
+        //     }
+        // }
 
         function clickMenu() {
             if (item.style.display == 'block') {
